@@ -5,3 +5,12 @@
 .vertical-rl{
      writing-mode: vertical-rl;
 }
+
+@font-face {
+     font-family: Roboto;
+     src: url(../public/fonts/Roboto-Regular.ttf);
+}
+
+body{
+     font-family: Roboto;
+}

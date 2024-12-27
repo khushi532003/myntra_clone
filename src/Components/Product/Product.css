@@ -1,0 +1,9 @@
+.swiper-pagination{
+     background-color: #fff;
+     z-index: 20;
+     margin-bottom: 40px;
+}
+.swiper-pagination-bullet{
+     width: 4px !important;
+     height: 4px !important;
+}

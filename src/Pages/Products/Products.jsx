@@ -9,9 +9,9 @@ function Products() {
         <>
             <div className="w-full flex">
                 <FilterProducts />
-                <div className="products p-5 w-full">
+                <div className="products p-5 w-full mt-16">
 
-                    <div className="flex justify-between gap-10 items-center">
+                    <div className="flex justify-between items-center py-4">
                         <div className="flex gap-1 flex-wrap">
                             <div className="height cursor-pointer hover:bg-gray-100 px-3 py-2 rounded-full flex justify-between gap-1 items-center">
                                 <div className="text-sm text-gray-600">Ankle Height</div>

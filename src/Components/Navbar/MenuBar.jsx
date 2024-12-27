@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function MenuBar() {
   return (
@@ -6,10 +7,13 @@ function MenuBar() {
       <div className="menus w-full   fixed top-18 z-40 bg-[#51515180]  h-screen">
         <div className="grid grid-cols-5 gap-8 w-[90%] mx-auto bg-white px-14 py-4">
           <div className="links">
-            <h4 className='text-sm text-orange-600 font-bold py-2'>Topwear</h4>
+            <h4 className='text-sm text-orange-600 font-bold py-2'>
+              <a href="/products">Topwear</a>
+            </h4>
+
             <ul className='py-3'>
               <li className="text-sm"> T-Shirts</li>
-              <li className="text-sm">Casual Shirts</li>
+              <li className="text-sm">Casual Shirts</li>  
               <li className="text-sm">  Formal Shirts</li>
               <li className="text-sm">Sweatshirts</li>
               <li className="text-sm">Sweaters</li>
